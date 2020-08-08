@@ -1,8 +1,6 @@
 # ------------------------------------------------------------------------------
-# multiview.pose3d.torch
-# Copyright (c) 2018-present Microsoft
-# Licensed under The Apache-2.0 License [see LICENSE for details]
-# Written by Chunyu Wang (chnuwa@microsoft.com)
+# Copyright (c) Microsoft Corporation. All rights reserved.
+# Licensed under the MIT License.
 # ------------------------------------------------------------------------------
 
 from __future__ import absolute_import
