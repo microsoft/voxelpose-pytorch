@@ -1,0 +1,83 @@
+CUDNN:
+  BENCHMARK: true
+  DETERMINISTIC: false
+  ENABLED: true
+BACKBONE_MODEL: ''
+MODEL: 'multi_person_posenet'
+DATA_DIR: ''
+GPUS: '0'
+OUTPUT_DIR: 'output'
+LOG_DIR: 'log'
+WORKERS: 4
+PRINT_FREQ: 100
+
+DATASET:
+  COLOR_RGB: True
+  TRAIN_DATASET: 'campus_synthetic'
+  TEST_DATASET: 'campus'
+  DATA_FORMAT: png
+  DATA_AUGMENTATION: False
+  FLIP: False
+  ROOT: 'data/CampusSeq1'
+  ROT_FACTOR: 45
+  SCALE_FACTOR: 0.35
+  TEST_SUBSET: 'validation'
+  TRAIN_SUBSET: 'train'
+  ROOTIDX:
+    - 2
+    - 3
+  CAMERA_NUM: 3
+NETWORK:
+  PRETRAINED_BACKBONE: ''
+  PRETRAINED:  ''  # 'models/pytorch/imagenet/resnet50-19c8e357.pth'
+  TARGET_TYPE: gaussian
+  IMAGE_SIZE:
+  - 800
+  - 640
+  HEATMAP_SIZE:
+  - 200
+  - 160
+  SIGMA: 3
+  NUM_JOINTS: 17
+  USE_GT: False
+LOSS:
+  USE_TARGET_WEIGHT: true
+TRAIN:
+  BATCH_SIZE: 4
+  SHUFFLE: true
+  BEGIN_EPOCH: 0
+  END_EPOCH: 30
+  RESUME: true
+  OPTIMIZER: adam
+  LR: 0.0001
+TEST:
+  MODEL_FILE: "model_best.pth.tar"
+  BATCH_SIZE: 4
+DEBUG:
+  DEBUG: true
+  SAVE_HEATMAPS_GT: true
+  SAVE_HEATMAPS_PRED: true
+MULTI_PERSON:
+  SPACE_SIZE:
+    - 12000.0
+    - 12000.0
+    - 2000.0
+  SPACE_CENTER:
+    - 3000.0
+    - 4500.0
+    - 1000.0
+  INITIAL_CUBE_SIZE:
+    - 80
+    - 80
+    - 20
+  MAX_PEOPLE_NUM: 10
+  THRESHOLD: 0.1
+PICT_STRUCT:
+  GRID_SIZE:
+    - 2000.0
+    - 2000.0
+    - 2000.0
+  CUBE_SIZE:
+    - 32
+    - 32
+    - 32
