@@ -7,7 +7,6 @@ This is the official implementation for:
 
 <img src="data/panoptic2.gif" width="800"/>
 
-# Quick start
 
 ## Installation
 1. Clone this repo, and we'll call the directory that you cloned multiview-multiperson-pose as ${POSE_ROOT}.
