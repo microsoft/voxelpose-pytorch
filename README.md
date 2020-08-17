@@ -1,4 +1,4 @@
-<img src="data/panoptic.gif" width="700"/>
+<img src="data/panoptic.gif" width="800"/>
 
 # Quick start
 
