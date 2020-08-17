@@ -96,6 +96,16 @@ python test/evaluate.py --cfg configs/shelf/prn64_cpn80x80x20.yaml
 python test/evaluate.py --cfg configs/campus/prn64_cpn80x80x20.yaml
 ```
 
+## Citation
+If you use our code or models in your research, please cite with:
+```
+@inproceedings{voxelpose,
+    author={Tu, Hanyue and Wang, Chunyu and Zeng, Wenjun},
+    title={VoxelPose: Towards Multi-Camera 3D Human Pose Estimation in Wild Environment},
+    booktitle = {European Conference on Computer Vision (ECCV)},
+    year = {2020}
+}
+
 
 # Contributing
 
