@@ -14,7 +14,7 @@ This is the official implementation for:
 
 ## Data preparation
 
-### Shelf/Campus datasets
+-Shelf/Campus datasets
 1. Download the datasets from http://campar.in.tum.de/Chair/MultiHumanPose and extract them under `${POSE_ROOT}/data/Shelf` and `${POSE_ROOT}/data/CampusSeq1`, respectively.
 
 2. We have processed the camera parameters to our formats and you can download them from this repository. They lie in `${POSE_ROOT}/data/Shelf/` and `${POSE_ROOT}/data/CampusSeq1/`,  respectively.
