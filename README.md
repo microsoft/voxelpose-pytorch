@@ -1,3 +1,10 @@
+# VoxelPose
+This is the official implementation for:
+> [**VoxelPose: Towards Multi-Camera 3D Human Pose Estimation in Wild Environment**](https://arxiv.org/abs/2004.06239),            
+> Hanyue Tu, Chunyu Wang, Wenjun Zeng        
+> *arXiv technical report ([arXiv 2004.06239](https://arxiv.org/abs/2004.06239))*
+
+
 <img src="data/panoptic2.gif" width="800"/>
 
 # Quick start
