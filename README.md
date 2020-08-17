@@ -1,3 +1,5 @@
+<img src="data/panoptic.gif" width="800"/>
+
 # Quick start
 
 ## Installation
