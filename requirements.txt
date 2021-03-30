@@ -8,5 +8,5 @@ torchvision==0.5.0
 numpy==1.16.2
 matplotlib==2.0.2
 easydict==1.9
-PyYAML==5.3.1
+PyYAML==5.4
 tensorboardX==2.1
