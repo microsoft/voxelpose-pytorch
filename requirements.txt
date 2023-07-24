@@ -1,6 +1,6 @@
 tqdm==4.29.1
 json_tricks==3.13.2
-torch==1.4.0
+torch==1.13.1
 opencv_python==4.0.0.21
 prettytable==0.7.2
 scipy==1.4.1
